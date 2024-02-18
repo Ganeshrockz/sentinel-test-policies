@@ -1,5 +1,5 @@
 module "tfplan-functions" {
-  source = ./common/tfplan-functions/tfplan-functions.sentinel"
+  source = "./common/tfplan-functions/tfplan-functions.sentinel"
 }
 
 policy "restrict-ec2-instance-type" {
