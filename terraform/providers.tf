@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "ganes-org"
+    organization = "test-ganes-org"
 
     workspaces {
       name = "test-sentinel-policies"
